@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("宏安1");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("宏安2");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("宏安3");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("宏安", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14,
-            treeNode15});
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("宏安1");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("宏安2");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("宏安3");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("宏安", new System.Windows.Forms.TreeNode[] {
+            treeNode9,
+            treeNode10,
+            treeNode11});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -50,18 +50,18 @@
             this.扩展ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.升级程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.备份文件还原ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.服务器信息配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.切换用户部门ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.语言切换ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.刷新用户信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.智慧社区与应用开发管理部ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.语言切换ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.简体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.英文ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.繁体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.英文ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.升级程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,16 +69,16 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(91, 96);
             this.treeView1.Name = "treeView1";
-            treeNode13.Name = "节点1";
-            treeNode13.Text = "宏安1";
-            treeNode14.Name = "节点2";
-            treeNode14.Text = "宏安2";
-            treeNode15.Name = "节点3";
-            treeNode15.Text = "宏安3";
-            treeNode16.Name = "节点0";
-            treeNode16.Text = "宏安";
+            treeNode9.Name = "节点1";
+            treeNode9.Text = "宏安1";
+            treeNode10.Name = "节点2";
+            treeNode10.Text = "宏安2";
+            treeNode11.Name = "节点3";
+            treeNode11.Text = "宏安3";
+            treeNode12.Name = "节点0";
+            treeNode12.Text = "宏安";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode16});
+            treeNode12});
             this.treeView1.Size = new System.Drawing.Size(121, 97);
             this.treeView1.TabIndex = 0;
             // 
@@ -173,23 +173,6 @@
             this.toolStripMenuItem3.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItem3.Text = "离线策略导入";
             // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(157, 6);
-            // 
-            // 升级程序ToolStripMenuItem
-            // 
-            this.升级程序ToolStripMenuItem.Name = "升级程序ToolStripMenuItem";
-            this.升级程序ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.升级程序ToolStripMenuItem.Text = "升级程序";
-            // 
-            // 关于ToolStripMenuItem
-            // 
-            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.关于ToolStripMenuItem.Text = "关于";
-            // 
             // 备份文件还原ToolStripMenuItem
             // 
             this.备份文件还原ToolStripMenuItem.Name = "备份文件还原ToolStripMenuItem";
@@ -211,16 +194,6 @@
             this.切换用户部门ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.切换用户部门ToolStripMenuItem.Text = "切换用户部门";
             // 
-            // 语言切换ToolStripMenuItem
-            // 
-            this.语言切换ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.简体ToolStripMenuItem,
-            this.繁体ToolStripMenuItem,
-            this.英文ToolStripMenuItem});
-            this.语言切换ToolStripMenuItem.Name = "语言切换ToolStripMenuItem";
-            this.语言切换ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.语言切换ToolStripMenuItem.Text = "语言切换";
-            // 
             // 刷新用户信息ToolStripMenuItem
             // 
             this.刷新用户信息ToolStripMenuItem.Name = "刷新用户信息ToolStripMenuItem";
@@ -233,23 +206,50 @@
             this.智慧社区与应用开发管理部ToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.智慧社区与应用开发管理部ToolStripMenuItem.Text = "智慧社区与应用开发管理部";
             // 
+            // 语言切换ToolStripMenuItem
+            // 
+            this.语言切换ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.简体ToolStripMenuItem,
+            this.繁体ToolStripMenuItem,
+            this.英文ToolStripMenuItem});
+            this.语言切换ToolStripMenuItem.Name = "语言切换ToolStripMenuItem";
+            this.语言切换ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.语言切换ToolStripMenuItem.Text = "语言切换";
+            // 
             // 简体ToolStripMenuItem
             // 
             this.简体ToolStripMenuItem.Name = "简体ToolStripMenuItem";
-            this.简体ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.简体ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.简体ToolStripMenuItem.Text = "简体";
-            // 
-            // 英文ToolStripMenuItem
-            // 
-            this.英文ToolStripMenuItem.Name = "英文ToolStripMenuItem";
-            this.英文ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.英文ToolStripMenuItem.Text = "英文";
             // 
             // 繁体ToolStripMenuItem
             // 
             this.繁体ToolStripMenuItem.Name = "繁体ToolStripMenuItem";
-            this.繁体ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.繁体ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.繁体ToolStripMenuItem.Text = "繁体";
+            // 
+            // 英文ToolStripMenuItem
+            // 
+            this.英文ToolStripMenuItem.Name = "英文ToolStripMenuItem";
+            this.英文ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.英文ToolStripMenuItem.Text = "英文";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(157, 6);
+            // 
+            // 升级程序ToolStripMenuItem
+            // 
+            this.升级程序ToolStripMenuItem.Name = "升级程序ToolStripMenuItem";
+            this.升级程序ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.升级程序ToolStripMenuItem.Text = "升级程序";
+            // 
+            // 关于ToolStripMenuItem
+            // 
+            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.关于ToolStripMenuItem.Text = "关于";
             // 
             // Form1
             // 
@@ -257,6 +257,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(365, 303);
             this.Controls.Add(this.treeView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
